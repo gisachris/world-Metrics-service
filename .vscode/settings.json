@@ -1,0 +1,11 @@
+{
+    "emmet.syntaxProfiles": {
+
+    },
+    "emmet.useInlineCompletions": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.multiCursorMergeOverlapping": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+}
