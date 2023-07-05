@@ -32,7 +32,7 @@
 .singleContinent:nth-child(7n+5),
 .singleContinent:nth-child(7n+6),
 .singleContinent:nth-child(7n+7) {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .redirectContinent {
