@@ -1,0 +1,63 @@
+.continents {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.singleContinent {
+  min-width: 48.5%;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 3px black;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0));
+}
+
+.singleContinent:nth-child(7n+1) {
+  background-color: #ec4c8a;
+}
+
+.singleContinent:nth-child(7n+2),
+.singleContinent:nth-child(7n+3),
+.singleContinent:nth-child(7n+6),
+.singleContinent:nth-child(7n+7) {
+  background-color: #9c2955;
+}
+
+.singleContinent:nth-child(7n+5),
+.singleContinent:nth-child(7n+6),
+.singleContinent:nth-child(7n+7) {
+    padding-bottom: 15px;
+}
+
+.redirectContinent {
+  display: block;
+}
+
+.redirectContinent > svg {
+  position: relative;
+  left: 88%;
+  top: 10px;
+}
+
+.continentName {
+  font-weight: 700;
+  text-align: end;
+  padding-right: 15px;
+  position: relative;
+  top: 122px;
+}
+
+.continentImage {
+  width: 100px;
+  position: relative;
+  z-index: 0;
+  opacity: 0.7;
+  left: 30%;
+  bottom: 30%;
+}

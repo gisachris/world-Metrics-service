@@ -1,5 +1,6 @@
 import React from 'react';
 import earthfull from '../assets/images/fullearth.jpg';
+import Continents from './continents';
 import '../styles/home.css';
 
 const HomePage = () => (
@@ -10,6 +11,7 @@ const HomePage = () => (
     </div>
     <div className="restHome">
       <span className="homeRestHeader">STATS BY CONTINENT...</span>
+      <Continents />
     </div>
   </section>
 );
