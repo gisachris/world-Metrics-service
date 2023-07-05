@@ -1,12 +1,15 @@
+import { Link, Outlet } from 'react-router-dom';
 import '../styles/navigation.css';
 
 const Navigation = () => (
   <section className="navHolder">
-    <span className="backKey">
-      <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="back-arrow" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
-        <path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="48" d="M328 112L184 256l144 144" />
-      </svg>
-    </span>
+    <Link to="/home">
+      <span className="backKey">
+        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="back-arrow" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="48" d="M328 112L184 256l144 144" />
+        </svg>
+      </span>
+    </Link>
     <span className="navTitle">World Metrics</span>
     <div className="iconHolder">
       <span className="settings">
@@ -21,10 +24,13 @@ const Navigation = () => (
         </svg>
       </span>
       <span className="searchButton">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
-          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-        </svg>
+        <Link to="/search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+        </Link>
       </span>
+      <Outlet />
     </div>
   </section>
 );
