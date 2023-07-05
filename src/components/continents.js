@@ -2,7 +2,7 @@ import SingleContinent from './singleContinent';
 import '../styles/continent.css';
 
 const Continents = () => {
-  const allContinents = ['Africa', 'Europe', 'North America', 'South America', 'Asia', 'Austria', 'Antarctica'];
+  const allContinents = ['Africa', 'Europe', 'North America', 'South America', 'Asia', 'Oceania', 'Antarctic'];
 
   return (
     <section className="continents">

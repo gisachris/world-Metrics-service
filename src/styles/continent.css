@@ -1,3 +1,8 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .continents {
   padding-top: 20px;
   display: flex;
@@ -41,8 +46,8 @@
 
 .redirectContinent > svg {
   position: relative;
-  left: 88%;
-  top: 10px;
+  left: 83%;
+  top: 13px;
 }
 
 .continentName {

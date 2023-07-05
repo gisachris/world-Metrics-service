@@ -10,4 +10,5 @@ body {
 .appHolder {
   max-width: 100%;
   min-height: 100vh;
+  background-color: #ec4c8a;
 }

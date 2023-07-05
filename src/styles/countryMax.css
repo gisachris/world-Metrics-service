@@ -1,0 +1,66 @@
+.countryInfoHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #9c2955;
+  background-color: #772f4b;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.countryName {
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.countryImage {
+  width: 40%;
+  position: relative;
+  top: 5px;
+  right: 30%;
+}
+
+.AreaCode {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px black;
+  align-self: flex-end;
+  position: relative;
+  bottom: -37px;
+}
+
+.AreaCodeData {
+  align-self: flex-end;
+  position: relative;
+  bottom: -54px;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.propertyHolder {
+  align-self: flex-start;
+}
+
+.propHeader {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px black;
+}
+
+.selectedPosition {
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+
+.selectedPosition::before {
+  content: "-";
+  margin-right: 5px;
+}
