@@ -1,0 +1,50 @@
+.allCoutryHolder {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  padding: 15px 15px;
+}
+
+.coutryHolder {
+  width: 90%;
+  height: 60px;
+  border: 2px solid #9c2955;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.coutryHolder:nth-child(even) {
+  background-color: #e6729e;
+}
+
+.coutryHolder:nth-child(odd) {
+  background-color: #9c2955;
+  border: 2px solid rgb(230, 114, 158);
+}
+
+.coutryHolder > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 5px black;
+  flex-wrap: nowrap;
+  padding-left: 10px;
+}
+
+.countryName {
+  height: 50%;
+  margin: auto 0;
+  max-width: 70%;
+}
+
+.countryFlag {
+  width: 10%;
+  height: 70%;
+  position: relative;
+  right: 25px;
+}
