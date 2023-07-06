@@ -39,10 +39,12 @@
 .countryName {
   height: 50%;
   margin: auto 0;
+  max-width: 70%;
 }
 
 .countryFlag {
   width: 10%;
+  height: 70%;
   position: relative;
   right: 25px;
 }
