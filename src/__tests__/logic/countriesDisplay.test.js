@@ -1,10 +1,10 @@
-import React from "react";
-import CountryDisplay from "../../components/countryMax";
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider, useSelector } from 'react-redux';
-import mockData from "../../mocks/data";
-import store from "../../mocks/store.mock";
+import CountryDisplay from '../../components/countryMax';
+import mockData from '../../mocks/data';
+import store from '../../mocks/store.mock';
 
 // Mock implementation of useParams
 jest.mock('react-router-dom', () => ({
@@ -26,15 +26,14 @@ describe('CountryDisplay component', () => {
   });
 
   it('should render the component with the selected country', () => {
-
     useSelector.mockReturnValue(mockData);
 
     render(
       <MemoryRouter>
         <Provider store={store}>
           <CountryDisplay />
-        </ Provider>
-      </MemoryRouter>
+        </Provider>
+      </MemoryRouter>,
     );
 
     expect(screen.getByText(mockData[0].name.common)).toBeInTheDocument();

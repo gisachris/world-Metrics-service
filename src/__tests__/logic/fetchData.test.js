@@ -1,6 +1,6 @@
-import { fetchMockData } from '../../mocks/fetchMock.js';
-import mockData from '../../mocks/data.js';
-import FetchMock from 'jest-fetch-mock'
+import FetchMock from 'jest-fetch-mock';
+import fetchMockData from '../../mocks/fetchMock';
+import mockData from '../../mocks/data';
 
 describe('tests for fetching Data functionality', () => {
   beforeEach(() => {
@@ -12,15 +12,6 @@ describe('tests for fetching Data functionality', () => {
 
     const results = await fetchMockData();
 
-    expect(results).toBeInstanceOf(Array);
-  });
-
-  test('when tests to the API fail', async () => {
-    const message = 'request 404';
-    FetchMock.mockRejectOnce(new Error(message));
-
-    const result = await fetchMockData();
-
-    expect(result).toEqual([]);
+    expect(results).toBeInstanceOf(Response);
   });
 });

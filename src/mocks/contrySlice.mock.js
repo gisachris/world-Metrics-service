@@ -9,16 +9,16 @@ const initialState = {
   data: [],
 };
 
-
 const countryMockedSlice = createSlice({
   name: 'countries',
   initialState,
   reducers: {
-    fetchMockedData: (state)=> {
-      state.data = mockData;
-    }
+    fetchMockedData: (state) => ({
+      ...state,
+      data: mockData,
+    }),
   },
 });
 
-export const {fetchMockedData} = countryMockedSlice.actions;
+export const { fetchMockedData } = countryMockedSlice.actions;
 export default countryMockedSlice.reducer;
