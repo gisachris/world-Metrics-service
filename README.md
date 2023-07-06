@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Traveler's Hub <a name="about-project"></a>
+# 📖 world-Metrics-service <a name="about-project"></a>
 
-**The Space Traveler's Hub** The Space Traveler's Hub web application is a web service solution to all individuals out there that focuses on providing a great traveling scheduler and booking service created using React and redux.
+**The world-Metrics-service** The world-Metrics-service web application Welcome to the world class web service that retrieves data from the restCountries API and displays it in a myriad of ways with top notch UI-design and craftsmanship as well as industry standard techniques and functionality to get you the information you desire ab any country in the world
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,15 +51,15 @@ React library
 
 ### Key Features <a name="key-features"></a>
 
-- **Real time booking service**
-- **Most up to date rocket and mission information**
+- **Real time Data about nations of the world**
+- **Most up to date Nations and countries information**
 - **clean UI design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[checkout spaceHubTravels here!](https://spacehubtravels.onrender.com)
+There is no live Demo yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 
 ````sh
   cd my-folder
-  git clone https://github.com/gisachris/react-group-project.git
+  git clone https://github.com/gisachris/world-Metrics-service.git
 
 
 ### Install
@@ -98,7 +98,7 @@ Install this project with:
 
 
 ```sh
-  cd react-group-project
+  cd world-Metrics-service
   npm install
   npm run build
   npm start
@@ -109,7 +109,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  Open dist/index.html in browser
+  Open build/index.html in browser
   or
   Open with Live server in Vscode
 ```
@@ -119,9 +119,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npx stylelint "**/*.{css,scss}"
-  npx hint .
-  npx eslint .
+  npm run test
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,17 +134,11 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Hussein Hashi**
-
-- GitHub: [@HusseinHashi](https://github.com/husush23)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **homepage Section**
+- **Users Login form and page**
 - **fully interactive SPA**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +149,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/gisachris/react-group-project/issues](../../issues/).
+Feel free to check the [https://github.com/gisachris/world-Metrics-service.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +165,7 @@ If you like this project give me a follow and/or a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse for giving this opportunity to me to showcase my dev skills.
+Original design idea by [https://www.behance.net/sakwadesignstudio](Nelson Sakwa on Behance.)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
