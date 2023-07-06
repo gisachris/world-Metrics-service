@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e015d42e.css",
+    "main.js": "/static/js/main.b8f29dc8.js",
+    "static/js/787.e4ca301b.chunk.js": "/static/js/787.e4ca301b.chunk.js",
+    "static/media/europe.png": "/static/media/europe.74d26c83aa3039c960d9.png",
+    "static/media/antarctica.png": "/static/media/antarctica.8d48fed3ad199344716b.png",
+    "static/media/fullearth.jpg": "/static/media/fullearth.462dd47162ba807df8ef.jpg",
+    "static/media/north america.png": "/static/media/north america.78c47d1d33774a7e560a.png",
+    "static/media/asia.png": "/static/media/asia.8b0f7dc7b11dfd7a1de7.png",
+    "static/media/Africa.png": "/static/media/Africa.683b13dbe99becdb1774.png",
+    "static/media/australia.png": "/static/media/australia.e35b6b7a298c45b4e2df.png",
+    "static/media/south america.png": "/static/media/south america.ef6240046beca699d0a2.png",
+    "index.html": "/index.html",
+    "main.e015d42e.css.map": "/static/css/main.e015d42e.css.map",
+    "main.b8f29dc8.js.map": "/static/js/main.b8f29dc8.js.map",
+    "787.e4ca301b.chunk.js.map": "/static/js/787.e4ca301b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e015d42e.css",
+    "static/js/main.b8f29dc8.js"
+  ]
+}
