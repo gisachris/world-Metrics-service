@@ -59,13 +59,13 @@ React library
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[https://worldmetrics-lw0g.onrender.com](Checkout the live site here!)
+[Checkout the live site here!](https://worldmetrics-lw0g.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Project Presentation <a name="Presentation"></a>
 
-[https://www.loom.com/share/e28516f04dfa47bf8890128aec2312ef?sid=9826d530-c805-4760-9afe-d59454a9884f](project presentation here!)
+[project presentation here!](https://www.loom.com/share/e28516f04dfa47bf8890128aec2312ef?sid=9826d530-c805-4760-9afe-d59454a9884f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
