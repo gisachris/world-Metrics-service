@@ -65,7 +65,7 @@ React library
 
 ## 🚀 Project Presentation <a name="Presentation"></a>
 
-There is no project presentation at the moment
+[https://www.loom.com/share/e28516f04dfa47bf8890128aec2312ef?sid=9826d530-c805-4760-9afe-d59454a9884f](project presentation here!)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
